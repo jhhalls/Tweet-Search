@@ -4,11 +4,8 @@ import urllib2
 import os
 
 usage = """
-Usage: ./tweet_search.py 'keyword'
-e.g ./tweet_search.py pythonforbeginners
-
+Usage: ./search_tweet.py 'keyword'
 Use "+" to replace whitespace"
-e.g ./tweet_search.py "python+for+beginners"
 """
 
 # Check that the user puts in an argument, else print the usage variable, then quit.
